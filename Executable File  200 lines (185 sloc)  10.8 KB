@@ -1,5 +1,5 @@
 <?php 
-    $days = array('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun');
+    $days = array('Mon' => 'Пн', 'Tue' => 'Вт', 'Wed' => 'Ср', 'Thu' => 'Чт', 'Fri' => 'Пт', 'Sat' => 'Сб', 'Sun' => 'Вс');
 ?>
 
 <?php if (isset($filial->response_code) && $filial->response_code == 200):?>
